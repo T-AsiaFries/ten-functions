@@ -34,12 +34,14 @@ function isFalse(input) {
 }
 
 // 3. not
+// ! -> not
 
 function not(input) {
     return !input
 }
 
 // 4. addOne
+// Number - always when infinity is included
 function addOne(input) {
    return Number(input) + 1
 }
@@ -55,6 +57,14 @@ function isEven(input) {
         return false;
     }
 }
+// More solutions for same function
+
+// function isEven(input) {
+//     let evenInput - parseFloat(input)
+//     return evenInput % 2 === 0;
+// }
+
+// const isEven = (even) => even % 2 === 0
 
 // 6. isIdentical
 
@@ -86,3 +96,8 @@ function concat(input1,input2) {
         return input1.toString() + input2.toString()
 }
 
+// Another example of concat
+
+// function concat(input1, input2) {
+//     return "".concat(input1, input2);
+// }
